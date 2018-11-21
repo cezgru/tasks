@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 public class DbService {
     @Autowired
-    private TaskRepository repository;
+    private TaskRepository repository; //IntelliJ??
 
     public List<Task> getAllTasks(){
         return repository.findAll();
